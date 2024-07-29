@@ -1,0 +1,81 @@
+/* styles.css */
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: teal;
+}
+
+header {
+    background:tomato;
+    color:white;
+    padding: 1em 0;
+}
+#background-section{
+    background-image: url("background.jpg");
+    background-size: 100% 100%;
+}
+
+#background-section p{
+   font-size: larger;
+   color: white;
+}
+
+
+nav ul {
+    list-style:none;
+    display:flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 2em;
+}
+
+nav ul li a {
+    color:white;
+    text-decoration:black;
+}
+
+section {
+    padding: 2em;
+}
+
+h1, h2 {
+    text-align: center;
+    background-color: maroon;
+}
+p{
+    
+    color: black;
+}
+/* Add more specific styles for each section if needed */
+#home {
+    background: url('../images/home-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color:teal;
+}
+
+#about, #projects, #resume, #contact {
+    background:teal;
+    margin: 2em 0;
+    padding: 2em;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction:row;
+    }
+
+    nav ul li {
+        margin: 0.5em 0;
+    }
+}
+
+ 
